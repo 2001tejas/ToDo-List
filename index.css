@@ -1,0 +1,51 @@
+.container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 5%;
+    width: max-content;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    background-color:darkkhaki;
+}
+
+.small-box
+{
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 2%;
+
+}
+
+body{
+    background-image: url(image/login-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#todo
+{
+    position: absolute;
+    top:0%;
+    left: 50%;
+}
+
+.navbar
+{
+    height: 5%;
+}
+
+#input{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-overflow: hidden;
+    box-shadow: 3px 5px 3px black;
+}
